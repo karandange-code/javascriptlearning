@@ -1,4 +1,4 @@
-console.log("DAY 2: OPERATORS:");
+ console.log("DAY 2: OPERATORS:");
 // Arithmetic Operators
 let a = 9;  
  let b = 4 ;

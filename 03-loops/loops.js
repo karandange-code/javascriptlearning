@@ -143,7 +143,7 @@ for (let key in student){
 console.log(key,":",student[key]);
 }
 
-//PRACTICE QUESTION
+//Guessing game
 
 /* 01- Create a game where you start with any random game number. Ask the user to keep
 guessing the game number until the user enters correct value.*/

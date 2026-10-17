@@ -1,16 +1,20 @@
- # JavaScript Learning Journey 🚀
+ 
+# JavaScript Learning Journey 🚀
 
-Hi, I'm Karan! This repository is my daily JavaScript practice log. I'm learning step by step, writing code every day, and building projects as I go. My goal is to become a web developer.
+Hi, I'm Karan! 👋
+
+This repository documents my daily JavaScript learning journey. I'm learning step by step, practicing consistently, and building projects to become a web developer.
 
 ## 📂 What's Inside
 
-| Folder | Topic | What I practiced |
-| --- | --- | --- |
-| [01-variable](./01-variable) | Variables and objects | `let`, `const`, `var`, data types, objects and properties |
-| [02-operators](./02-operators) | Operators | Arithmetic, comparison, logical and assignment operators |
-| [03-loops](./03-loops) | Loops | `for`, `while`, `do...while`, looping over data |
-| [04-string](./04-string) | Strings | String methods, template literals, slicing and searching |
-| [05-array](./05-array) | Arrays | Creating, accessing and updating arrays, array methods |
+| Folder | Topic | What I Practiced |
+|---|---|---|
+| `01-variable` | Variables and Objects | `let`, `const`, `var`, data types, objects and properties |
+| `02-operators` | Operators | Arithmetic, comparison, logical and assignment operators |
+| `03-loops` | Loops | `for`, `while`, `do...while`, `for...in`, `for...of` |
+| `04-string` | Strings | String methods, template literals, slicing and searching |
+| `05-array` | Arrays | Creating, accessing, updating and manipulating arrays |
+| `06-function` | Functions and Array Methods | Function declarations, arrow functions, callbacks, `forEach()`, `map()`, `filter()` and `reduce()` |
 
 ## 🗓️ Daily Progress
 
@@ -22,60 +26,85 @@ Hi, I'm Karan! This repository is my daily JavaScript practice log. I'm learning
 - Used `console.log()` to display output
 
 ### Day 2: Operators
-- Practiced arithmetic, comparison and logical operators
- 
+- Practiced arithmetic operators
+- Explored comparison and logical operators
+- Learned assignment operators and conditional expressions
 
 ### Day 3: Loops
 - Practiced `for` and `while` loops
-- practiced `do-while` and `for in loop` and `for of loop`
-- building guessing game
+- Explored `do...while`, `for...in` and `for...of`
+- Solved loop-based practice questions
+- Started building a number-guessing game
 
 ### Day 4: Strings
-- Explored common string methods
-- practice question 
+- Explored common JavaScript string methods
+- Practiced string manipulation and problem-solving questions
 
 ### Day 5: Arrays
-- Worked with arrays and array methods
- - practice question 
+- Learned how to create, access and update arrays
+- Practiced array methods and coding questions
 
-## 🧭 Roadmap
+### Day 6: Functions and Array Methods
+- Practiced function declarations and function expressions
+- Learned arrow functions
+- Practiced writing reusable functions
+- Worked on counting vowels in a string
+- Practiced `forEach()` to iterate over arrays
+- Used `map()` to transform array elements
+- Used `filter()` to select matching elements
+- Practiced `reduce()` to combine array values
+- Continued building consistency through daily coding practice
+
+## 🧭 Learning Roadmap
 
 - [x] Variables and data types
 - [x] Operators
 - [x] Loops
 - [x] Strings
 - [x] Arrays
-- [ ] Functions
+- [x] Functions and basic array methods
 - [ ] Objects in depth
 - [ ] DOM manipulation
-- [ ] Events
+- [ ] Events and event handling
 - [ ] Classes and objects
-- [ ] Callbacks, Promises, Async/Await
-- [ ] project
-
-## 🛠️ How to Run
-
-1. Clone the repo:
-   
-   git clone https://github.com/karandange-code/javascriptlearning.git
-    
-2. Open any folder and run a file with Node.js:
-    
-   node 01-variable/filename.js
-   
-   Or paste the code into your browser's console  .
+- [ ] Callbacks, Promises and Async/Await
+- [ ] Mini projects
+- [ ] Build and deploy web projects
 
 ## 🎯 My Goals
 
-- Practice JavaScript consistently, every day
-- Build small projects (to-do app, calculator, quiz) and host them live
+- Practice JavaScript consistently
+- Strengthen my programming fundamentals
+- Build small projects such as a to-do app, calculator and quiz
 - Improve my problem-solving skills
-- Grow towards becoming a web developer
+- Learn frontend development and progress towards becoming a web developer
+
+## 🛠️ How to Run
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/karandange-code/javascriptlearning.git
+   ```
+
+2. Open the project folder:
+
+   ```bash
+   cd javascriptlearning
+   ```
+
+3. Run a JavaScript file with Node.js:
+
+   ```bash
+   node 06-function/function.js
+   ```
+
+You can also run suitable JavaScript code in your browser's developer console.
 
 ## 🤝 Feedback
 
-I'm a beginner, so suggestions and tips are always welcome. Feel free to open an issue or say hi!
+I'm a beginner learning in public. Suggestions, feedback and tips are always welcome!
 
 ---
 
-**Learning every day. Building step by step.** 💻
+**Learning every day. Building step by step.** 💻🚀

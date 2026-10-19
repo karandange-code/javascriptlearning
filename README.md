@@ -1,4 +1,3 @@
- 
 # JavaScript Learning Journey 🚀
 
 Hi, I'm Karan! 👋
@@ -7,7 +6,7 @@ This repository documents my daily JavaScript learning journey. I'm learning ste
 
 ## 📂 What's Inside
 
-| Folder | Topic | What I Practiced |
+| **Folder** | **Topic** | **What I Practiced** |
 |---|---|---|
 | `01-variable` | Variables and Objects | `let`, `const`, `var`, data types, objects and properties |
 | `02-operators` | Operators | Arithmetic, comparison, logical and assignment operators |
@@ -15,6 +14,7 @@ This repository documents my daily JavaScript learning journey. I'm learning ste
 | `04-string` | Strings | String methods, template literals, slicing and searching |
 | `05-array` | Arrays | Creating, accessing, updating and manipulating arrays |
 | `06-function` | Functions and Array Methods | Function declarations, arrow functions, callbacks, `forEach()`, `map()`, `filter()` and `reduce()` |
+| `07-DOM` | DOM Manipulation | DOM selection, properties, attributes, styling, creating elements and `classList` |
 
 ## 🗓️ Daily Progress
 
@@ -55,21 +55,29 @@ This repository documents my daily JavaScript learning journey. I'm learning ste
 - Practiced `reduce()` to combine array values
 - Continued building consistency through daily coding practice
 
+### Day 7: DOM Manipulation
+- Learned what the DOM is
+- Practiced selecting HTML elements
+- Explored `innerText`, `innerHTML` and `textContent`
+- Learned to get and set HTML attributes
+- Practiced changing element styles with JavaScript
+- Learned to create, insert and remove elements
+- Practiced using `classList` to manage CSS classes
+
 ## 🧭 Learning Roadmap
 
-- [x] Variables and data types
-- [x] Operators
-- [x] Loops
-- [x] Strings
-- [x] Arrays
-- [x] Functions and basic array methods
-- [ ] Objects in depth
-- [ ] DOM manipulation
-- [ ] Events and event handling
-- [ ] Classes and objects
-- [ ] Callbacks, Promises and Async/Await
-- [ ] Mini projects
-- [ ] Build and deploy web projects
+- Variables and data types
+- Operators
+- Loops
+- Strings
+- Arrays
+- Functions and basic array methods
+- DOM manipulation
+- Events and event handling
+- Classes and objects
+- Callbacks, Promises and Async/Await
+- Mini projects
+- Build and deploy web projects
 
 ## 🎯 My Goals
 
@@ -83,21 +91,21 @@ This repository documents my daily JavaScript learning journey. I'm learning ste
 
 1. Clone the repository:
 
-   ```bash
+   
    git clone https://github.com/karandange-code/javascriptlearning.git
-   ```
+   
 
 2. Open the project folder:
 
-   ```bash
+   
    cd javascriptlearning
-   ```
+  
 
 3. Run a JavaScript file with Node.js:
 
-   ```bash
+    
    node 06-function/function.js
-   ```
+   
 
 You can also run suitable JavaScript code in your browser's developer console.
 
@@ -107,4 +115,4 @@ I'm a beginner learning in public. Suggestions, feedback and tips are always wel
 
 ---
 
-**Learning every day. Building step by step.** 💻🚀
+**Learning every day. Building step by step.** 🚀

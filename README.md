@@ -1,4 +1,4 @@
-# JavaScript Learning Journey 🚀
+# JavaScript Learning Journey  
 
 Hi, I'm Karan! 👋
 

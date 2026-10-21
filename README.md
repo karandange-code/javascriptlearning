@@ -1,4 +1,5 @@
-# JavaScript Learning Journey  
+ 
+# JavaScript Learning Journey
 
 Hi, I'm Karan! 👋
 
@@ -15,6 +16,7 @@ This repository documents my daily JavaScript learning journey. I'm learning ste
 | `05-array` | Arrays | Creating, accessing, updating and manipulating arrays |
 | `06-function` | Functions and Array Methods | Function declarations, arrow functions, callbacks, `forEach()`, `map()`, `filter()` and `reduce()` |
 | `07-DOM` | DOM Manipulation | DOM selection, properties, attributes, styling, creating elements and `classList` |
+| `08-Event` | Events and Event Handling | Event listeners, click events, keyboard events, form events and interactive JavaScript functionality |
 
 ## 🗓️ Daily Progress
 
@@ -53,7 +55,6 @@ This repository documents my daily JavaScript learning journey. I'm learning ste
 - Used `map()` to transform array elements
 - Used `filter()` to select matching elements
 - Practiced `reduce()` to combine array values
-- Continued building consistency through daily coding practice
 
 ### Day 7: DOM Manipulation
 - Learned what the DOM is
@@ -63,6 +64,14 @@ This repository documents my daily JavaScript learning journey. I'm learning ste
 - Practiced changing element styles with JavaScript
 - Learned to create, insert and remove elements
 - Practiced using `classList` to manage CSS classes
+
+### Day 8: Events and Event Handling
+- Learned how JavaScript events work
+- Practiced handling click events
+- Explored event listeners using `addEventListener()`
+- Learned how user interactions trigger JavaScript functions
+- Practiced connecting HTML elements with JavaScript
+- Built an interactive project using HTML, CSS and JavaScript
 
 ## 🧭 Learning Roadmap
 
@@ -97,22 +106,22 @@ This repository documents my daily JavaScript learning journey. I'm learning ste
 
 2. Open the project folder:
 
-   
+    
    cd javascriptlearning
-  
+   
 
-3. Run a JavaScript file with Node.js:
+3. Open the relevant HTML file in your browser to run the interactive projects. You can use VS Code with the Live Server extension for convenience.
+
+4. Run standalone JavaScript files with Node.js when applicable:
 
     
    node 06-function/function.js
    
 
-You can also run suitable JavaScript code in your browser's developer console.
-
 ## 🤝 Feedback
 
 I'm a beginner learning in public. Suggestions, feedback and tips are always welcome!
 
----
+ 
 
-**Learning every day. Building step by step.**  
+**Learning every day. Building step by step. 🚀**

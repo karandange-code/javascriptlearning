@@ -1,5 +1,4 @@
- 
-# JavaScript Learning Journey
+# JavaScript Learning Journey  
 
 Hi, I'm Karan! 👋
 
@@ -7,7 +6,7 @@ This repository documents my daily JavaScript learning journey. I'm learning ste
 
 ## 📂 What's Inside
 
-| **Folder** | **Topic** | **What I Practiced** |
+| Folder | Topic | What I Practiced |
 |---|---|---|
 | `01-variable` | Variables and Objects | `let`, `const`, `var`, data types, objects and properties |
 | `02-operators` | Operators | Arithmetic, comparison, logical and assignment operators |
@@ -16,7 +15,9 @@ This repository documents my daily JavaScript learning journey. I'm learning ste
 | `05-array` | Arrays | Creating, accessing, updating and manipulating arrays |
 | `06-function` | Functions and Array Methods | Function declarations, arrow functions, callbacks, `forEach()`, `map()`, `filter()` and `reduce()` |
 | `07-DOM` | DOM Manipulation | DOM selection, properties, attributes, styling, creating elements and `classList` |
-| `08-Event` | Events and Event Handling | Event listeners, click events, keyboard events, form events and interactive JavaScript functionality |
+| `08-Event` | Events and Event Handling | Event listeners, click events, keyboard events, form events and interactive functionality |
+| `09-Classes-Objects` | Classes and Objects | Constructors, methods, prototypes and inheritance |
+| `10-async-await` | Asynchronous JavaScript | Synchronous vs asynchronous execution, callbacks, callback hell, Promises, `resolve`, `reject`, `.then()`, `.catch()`, `async`, `await`, error handling and IIFE |
 
 ## 🗓️ Daily Progress
 
@@ -71,30 +72,53 @@ This repository documents my daily JavaScript learning journey. I'm learning ste
 - Explored event listeners using `addEventListener()`
 - Learned how user interactions trigger JavaScript functions
 - Practiced connecting HTML elements with JavaScript
-- Built an interactive project using HTML, CSS and JavaScript
+- Worked on an interactive project using HTML, CSS and JavaScript
+
+### Day 9: Classes, Objects, Prototypes and Inheritance
+- Practiced creating objects and accessing their properties
+- Learned about JavaScript prototypes
+- Used `Object.setPrototypeOf()` to connect objects
+- Practiced creating classes and constructors
+- Created class methods
+- Explored inheritance and reusing methods
+
+### Day 10: Callbacks, Promises and Async/Await
+- Learned the difference between synchronous and asynchronous JavaScript
+- Practiced `setTimeout()`
+- Learned callbacks and callback hell
+- Created Promises using `new Promise()`
+- Practiced `resolve()` and `reject()`
+- Handled successful and rejected Promises using `.then()` and `.catch()`
+- Learned how `async` functions return Promises
+- Used `await` to wait for asynchronous operations
+- Practiced error handling with `try`, `catch` and `finally`
+- Learned Immediately Invoked Function Expressions (IIFE)
 
 ## 🧭 Learning Roadmap
 
-- Variables and data types
-- Operators
-- Loops
-- Strings
-- Arrays
-- Functions and basic array methods
-- DOM manipulation
-- Events and event handling
-- Classes and objects
-- Callbacks, Promises and Async/Await
-- Mini projects
-- Build and deploy web projects
+- [x] Variables and data types
+- [x] Operators
+- [x] Loops
+- [x] Strings
+- [x] Arrays
+- [x] Functions and basic array methods
+- [x] DOM manipulation
+- [x] Events and event handling
+- [x] Classes, objects, prototypes and inheritance
+- [x] Callbacks, Promises and Async/Await
+- [ ] More JavaScript practice problems
+- [ ] Build more mini projects
+- [ ] Learn React
+- [ ] Build and deploy web projects
 
 ## 🎯 My Goals
 
 - Practice JavaScript consistently
 - Strengthen my programming fundamentals
-- Build small projects such as a to-do app, calculator and quiz
+- Build projects such as a to-do app, calculator, quiz and interactive games
 - Improve my problem-solving skills
 - Learn frontend development and progress towards becoming a web developer
+- Share my learning journey and projects publicly
 
 ## 🛠️ How to Run
 
@@ -102,26 +126,26 @@ This repository documents my daily JavaScript learning journey. I'm learning ste
 
    
    git clone https://github.com/karandange-code/javascriptlearning.git
-   
+  
 
 2. Open the project folder:
 
-    
+   
    cd javascriptlearning
    
 
-3. Open the relevant HTML file in your browser to run the interactive projects. You can use VS Code with the Live Server extension for convenience.
+3. Open the relevant HTML file in your browser. You can use VS Code with the Live Server extension for interactive projects.
 
-4. Run standalone JavaScript files with Node.js when applicable:
+4. Run standalone JavaScript files with Node.js when applicable. For example:
 
-    
-   node 06-function/function.js
    
+   node 10-async-await/script.js
+   
+
+   Make sure Node.js is installed and the file path matches your repository.
 
 ## 🤝 Feedback
 
 I'm a beginner learning in public. Suggestions, feedback and tips are always welcome!
-
- 
 
 **Learning every day. Building step by step. 🚀**

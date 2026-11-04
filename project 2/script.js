@@ -17,7 +17,7 @@ const updateFlag = (element) => {
   img.src = `https://flagsapi.com/${countrycode}/flat/64.png`;
 };
 
-// Dropdown options bharo
+ 
 for (const select of dropdowns) {
   for (const currcode in countryList) {
     const option = document.createElement("option");
@@ -36,7 +36,7 @@ for (const select of dropdowns) {
   });
 }
 
-// Rates fetch karo (fallback ke saath)
+ 
 const fetchRates = async (from) => {
   for (const base of BASE_URLS) {
     try {
@@ -78,13 +78,13 @@ const updateExchangeRate = async () => {
   }
 };
 
-// Button click / Enter dabane par
+ 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   updateExchangeRate();
 });
 
-// Swap icon: from aur to badlo
+ 
 swapIcon.addEventListener("click", () => {
   [fromCurrency.value, toCurrency.value] = [toCurrency.value, fromCurrency.value];
   updateFlag(fromCurrency);
@@ -92,5 +92,5 @@ swapIcon.addEventListener("click", () => {
   updateExchangeRate();
 });
 
-// Page load par default conversion
+ 
 window.addEventListener("load", updateExchangeRate);

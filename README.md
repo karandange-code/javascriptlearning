@@ -1,27 +1,28 @@
-# JavaScript Learning Journey  
+# JavaScript Learning Journey 🚀
 
 Hi, I'm Karan! 👋
 
-This repository documents my daily JavaScript learning journey. I'm learning step by step, practicing consistently, and building projects to become a web developer.
+This repository documents my daily JavaScript learning journey. I'm learning step by step, practicing consistently, building projects, and sharing my progress as I work towards becoming a web developer.
 
 ## 📂 What's Inside
 
-| Folder | Topic | What I Practiced |
-|---|---|---|
-| `01-variable` | Variables and Objects | `let`, `const`, `var`, data types, objects and properties |
-| `02-operators` | Operators | Arithmetic, comparison, logical and assignment operators |
-| `03-loops` | Loops | `for`, `while`, `do...while`, `for...in`, `for...of` |
-| `04-string` | Strings | String methods, template literals, slicing and searching |
-| `05-array` | Arrays | Creating, accessing, updating and manipulating arrays |
-| `06-function` | Functions and Array Methods | Function declarations, arrow functions, callbacks, `forEach()`, `map()`, `filter()` and `reduce()` |
-| `07-DOM` | DOM Manipulation | DOM selection, properties, attributes, styling, creating elements and `classList` |
-| `08-Event` | Events and Event Handling | Event listeners, click events, keyboard events, form events and interactive functionality |
-| `09-Classes-Objects` | Classes and Objects | Constructors, methods, prototypes and inheritance |
-| `10-async-await` | Asynchronous JavaScript | Synchronous vs asynchronous execution, callbacks, callback hell, Promises, `resolve`, `reject`, `.then()`, `.catch()`, `async`, `await`, error handling and IIFE |
-
+| Folder               | Topic                       | What I Practiced                                                                                           |
+| -------------------- | --------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| `01-variable`        | Variables and Objects       | `let`, `const`, `var`, data types, objects and properties                                                  |
+| `02-operators`       | Operators                   | Arithmetic, comparison, logical and assignment operators                                                   |
+| `03-loops`           | Loops                       | `for`, `while`, `do...while`, `for...in`, `for...of`                                                       |
+| `04-string`          | Strings                     | String methods, template literals, slicing and searching                                                   |
+| `05-array`           | Arrays                      | Creating, accessing, updating and manipulating arrays                                                      |
+| `06-function`        | Functions and Array Methods | Function declarations, arrow functions, callbacks, `forEach()`, `map()`, `filter()` and `reduce()`         |
+| `07-DOM`             | DOM Manipulation            | DOM selection, properties, attributes, styling, creating elements and `classList`                          |
+| `08-Event`           | Events and Event Handling   | Event listeners, click events, keyboard events, form events and interactive functionality                  |
+| `09-Classes-Objects` | Classes and Objects         | Constructors, methods, prototypes and inheritance                                                          |
+| `10-async-await`     | Asynchronous JavaScript     | Callbacks, Promises, `resolve`, `reject`, `.then()`, `.catch()`, `async`, `await`, error handling and IIFE |
+ 
 ## 🗓️ Daily Progress
 
 ### Day 1: Variables and Objects
+
 - Practiced variables using `let` and `const`
 - Learned JavaScript data types
 - Created `product` and `profile` objects
@@ -29,25 +30,30 @@ This repository documents my daily JavaScript learning journey. I'm learning ste
 - Used `console.log()` to display output
 
 ### Day 2: Operators
+
 - Practiced arithmetic operators
 - Explored comparison and logical operators
 - Learned assignment operators and conditional expressions
 
 ### Day 3: Loops
+
 - Practiced `for` and `while` loops
 - Explored `do...while`, `for...in` and `for...of`
 - Solved loop-based practice questions
 - Started building a number-guessing game
 
 ### Day 4: Strings
+
 - Explored common JavaScript string methods
 - Practiced string manipulation and problem-solving questions
 
 ### Day 5: Arrays
+
 - Learned how to create, access and update arrays
 - Practiced array methods and coding questions
 
 ### Day 6: Functions and Array Methods
+
 - Practiced function declarations and function expressions
 - Learned arrow functions
 - Practiced writing reusable functions
@@ -58,6 +64,7 @@ This repository documents my daily JavaScript learning journey. I'm learning ste
 - Practiced `reduce()` to combine array values
 
 ### Day 7: DOM Manipulation
+
 - Learned what the DOM is
 - Practiced selecting HTML elements
 - Explored `innerText`, `innerHTML` and `textContent`
@@ -67,14 +74,16 @@ This repository documents my daily JavaScript learning journey. I'm learning ste
 - Practiced using `classList` to manage CSS classes
 
 ### Day 8: Events and Event Handling
+
 - Learned how JavaScript events work
 - Practiced handling click events
 - Explored event listeners using `addEventListener()`
 - Learned how user interactions trigger JavaScript functions
 - Practiced connecting HTML elements with JavaScript
-- Worked on an interactive project using HTML, CSS and JavaScript
+- Worked on interactive projects using HTML, CSS and JavaScript
 
 ### Day 9: Classes, Objects, Prototypes and Inheritance
+
 - Practiced creating objects and accessing their properties
 - Learned about JavaScript prototypes
 - Used `Object.setPrototypeOf()` to connect objects
@@ -83,6 +92,7 @@ This repository documents my daily JavaScript learning journey. I'm learning ste
 - Explored inheritance and reusing methods
 
 ### Day 10: Callbacks, Promises and Async/Await
+
 - Learned the difference between synchronous and asynchronous JavaScript
 - Practiced `setTimeout()`
 - Learned callbacks and callback hell
@@ -94,7 +104,101 @@ This repository documents my daily JavaScript learning journey. I'm learning ste
 - Practiced error handling with `try`, `catch` and `finally`
 - Learned Immediately Invoked Function Expressions (IIFE)
 
-## 🧭 Learning Roadmap
+## 🚀 Projects Built
+
+### 1. Rock Paper Scissors Game
+
+Built an interactive Rock Paper Scissors game using HTML, CSS and JavaScript.
+
+**Practiced:**
+
+- DOM manipulation
+- Event handling
+- JavaScript logic
+- User interaction
+- Dynamic UI updates
+
+### 2. Currency Converter
+
+Built a currency converter using JavaScript and an API.
+
+**Practiced:**
+
+- `fetch()`
+- API requests
+- `async/await`
+- JSON data
+- DOM manipulation
+- Dynamic data rendering
+
+### 3. Gym Website
+
+Built a responsive gym website using HTML, CSS and JavaScript.
+
+**Practiced:**
+
+- Responsive web design
+- Website layout
+- Navigation
+- Interactive elements
+- UI design
+- JavaScript functionality
+
+### 4. Salon Website
+
+Built a responsive salon website as a practical client-style project.
+
+**Practiced:**
+
+- Modern website layout
+- Responsive design
+- Sections and navigation
+- Service presentation
+- Contact/booking interface
+- Client-focused website structure
+
+### 5. Flipkart Clone
+
+Built a Flipkart-inspired e-commerce interface to practice frontend development.
+
+**Practiced:**
+
+- HTML and CSS
+- JavaScript
+- Product cards
+- UI layout
+- Responsive design
+- Interactive functionality
+
+ 
+## 🌐 Deployment
+
+I am also learning how to deploy my projects and make them available online.
+
+Currently practicing:
+
+- Git and GitHub
+- GitHub repositories
+- Git commits and version control
+- Vercel deployment
+- Connecting projects to GitHub
+- Deploying frontend projects
+- Updating deployed projects after new commits
+
+## 🧑‍💻 GitHub Workflow
+
+For each project, I am practicing a real development workflow:
+
+ 
+git status
+git add .
+git commit -m "describe the changes"
+git push
+ 
+
+I'm learning to maintain projects properly using Git and GitHub instead of only keeping projects on my local computer.
+
+## 🧭 Current Learning Roadmap
 
 - [x] Variables and data types
 - [x] Operators
@@ -106,43 +210,50 @@ This repository documents my daily JavaScript learning journey. I'm learning ste
 - [x] Events and event handling
 - [x] Classes, objects, prototypes and inheritance
 - [x] Callbacks, Promises and Async/Await
-- [ ] More JavaScript practice problems
-- [ ] Build more mini projects
-- [ ] Learn React
-- [ ] Build and deploy web projects
+- [x] Fetch API
+- [x] Build JavaScript projects
+- [x] Git and GitHub basics
+- [x] Deploy frontend projects
+ 
 
 ## 🎯 My Goals
 
 - Practice JavaScript consistently
 - Strengthen my programming fundamentals
-- Build projects such as a to-do app, calculator, quiz and interactive games
+- Build real-world projects
 - Improve my problem-solving skills
-- Learn frontend development and progress towards becoming a web developer
-- Share my learning journey and projects publicly
+- Learn React and modern frontend development
+- Learn full-stack development with the MERN stack
+- Build and deploy useful web applications
+  
+- Share my coding journey publicly
+- Continue improving through practical projects
 
 ## 🛠️ How to Run
 
 1. Clone the repository:
 
-   
-   git clone https://github.com/karandange-code/javascriptlearning.git
-  
+ 
+git clone https://github.com/karandange-code/javascriptlearning.git
+ 
 
 2. Open the project folder:
 
-   
-   cd javascriptlearning
-   
+ 
+cd javascriptlearning
+ 
 
-3. Open the relevant HTML file in your browser. You can use VS Code with the Live Server extension for interactive projects.
+3. Open the relevant HTML file in your browser.
 
-4. Run standalone JavaScript files with Node.js when applicable. For example:
+You can also use VS Code with the Live Server extension for interactive projects.
 
-   
-   node 10-async-await/script.js
-   
+4. Run standalone JavaScript files with Node.js when applicable:
 
-   Make sure Node.js is installed and the file path matches your repository.
+ 
+node 10-async-await/script.js
+ 
+
+Make sure Node.js is installed and the file path matches your repository.
 
 ## 🤝 Feedback
 

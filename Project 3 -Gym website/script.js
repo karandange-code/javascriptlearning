@@ -36,9 +36,7 @@ navItems.forEach(function (link) {
 });
 
 
- 
-// CONTACT FORM
- 
+ // CONTACT FORM
 
 const contactForm = document.getElementById("contactForm");
 
@@ -46,11 +44,19 @@ contactForm.addEventListener("submit", function (event) {
 
     event.preventDefault();
 
-    const name = document.getElementById("name").value;
-    const phone = document.getElementById("phone").value;
+    const name = document.getElementById("name").value.trim();
+    const phone = document.getElementById("phone").value.trim();
+    const email = document.getElementById("email").value.trim();
     const goal = document.getElementById("goal").value;
+    const message = document.getElementById("message").value.trim();
 
-    if (name === "" || phone === "" || goal === "") {
+    if (
+        name === "" ||
+        phone === "" ||
+        email === "" ||
+        goal === "" ||
+        message === ""
+    ) {
 
         alert("Please fill all required fields.");
 
@@ -58,17 +64,31 @@ contactForm.addEventListener("submit", function (event) {
 
     }
 
-    alert(
-        `Thank you ${name}! 
+    // Your gym's WhatsApp number
+    const whatsappNumber = "9179XXXXXXXX";
 
-Your enquiry has been received.
+    const whatsappMessage =
+        `🏋️ NEW GYM ENQUIRY
 
-Our team will contact you regarding ${goal}.`
-    );
+Name: ${name}
+Phone: ${phone}
+Email: ${email}
+Goal: ${goal}
 
+Message:
+${message}`;
+
+    const whatsappURL =
+        `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+
+    // Open WhatsApp
+    window.open(whatsappURL, "_blank");
+
+    // Reset form
     contactForm.reset();
 
 });
+ 
 
 
  
